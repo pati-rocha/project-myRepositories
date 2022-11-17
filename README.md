@@ -1,6 +1,4 @@
 # project-react-1.1
-Projeto reactjs consumindo API com Axios
-
 
 ### 🎯 O que é o projeto
  Projeto feito com ReactJs consumindo a API do Github com Axios.
