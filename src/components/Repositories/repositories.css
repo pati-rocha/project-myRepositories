@@ -32,4 +32,10 @@
     border-radius: 8px;
     color: rgb(170, 170, 166);
     font-size: 14pt;
+    transition: transform 0.4s;    
+}
+.card:hover {
+    transform: scale(1.02);
+    background: rgb(34,193,195);
+    color: black;
 }
