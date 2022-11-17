@@ -6,15 +6,21 @@
     width: 400px;
     padding: 4px 12px;
     border-radius: 4px;
+    background-color: rgb(24, 22, 22);
+    border-color:  rgb(173, 173, 170);
+    color: rgb(170, 170, 166);
 }
 
 .main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 80%;
+    min-height: 100vh;
     margin: auto;
     margin-top: 30px;
-    gap: 10px;
+    gap: 30px;
 }
 .card {
     width: 300px;
@@ -22,8 +28,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 1px gray;
+    border: solid 1px rgb(173, 173, 170);
     border-radius: 8px;
-    color: rgb(46, 45, 42);
+    color: rgb(170, 170, 166);
     font-size: 14pt;
 }
