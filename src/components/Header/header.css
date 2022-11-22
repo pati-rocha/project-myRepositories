@@ -9,3 +9,14 @@ header {
     background: rgb(34,193,195);
     background: radial-gradient(circle, rgb(48, 243, 247) 0%, rgba(18,71,93,1) 70%);
 }
+@media (min-width:481px) and (max-width:720px) {
+    header {
+        font-size: 20pt;
+    }
+}
+@media (max-width:480px) {
+    header{      
+        text-align: center;  
+        font-size: 14pt;       
+    }
+}

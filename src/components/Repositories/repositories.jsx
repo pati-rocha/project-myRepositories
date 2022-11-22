@@ -23,7 +23,7 @@ export function Repositories() {
 
   useEffect(() => {
     const filtered = repos.filter((repo) => {
-      return repo.name.includes(termoBuscado);
+      return repo.name.includes(termoBuscado.toLowerCase());
     });
     setReposFiltrados(filtered);
   }, [repos, termoBuscado]);
